@@ -61,7 +61,7 @@ input {
 	margin: 0.5rem;
 }
 
-.mce-success-response {
+#mce-error-response, #mce-success-response {
 	margin-top: 1rem;
 	font-weight: bold;
 }
