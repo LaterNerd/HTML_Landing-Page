@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+* {
+	/* border: 1px solid red; */
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: #f8f8f8;
+	font-family: 'Figtree', sans-serif;
+	color: #47385f;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.cardContainer {
+	background-color: #eacae0;
+	border: 0.2rem solid #47385f;
+	padding: 2rem 1.5rem 5rem;
+	box-shadow: 6.1px 7.2px #40ad33;
+}
+
+#title {
+	color: #47385f;
+	font-size: 4rem;
+	font-family: 'Rubik Iso', cursive;
+	padding: 1rem;
+	margin: 1rem;
+	border-bottom: 0.3rem solid #df629e;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 50%;
+}
+
+input {
+	height: 2rem;
+	width: 100%;
+	font-size: 1rem;
+	text-indent: 1rem;
+	border: 0.1rem solid #47385f;
+}
+
+.mce_inline_error {
+	margin: 0.5rem;
+}
+
+button {
+	height: 3rem;
+	width: 100%;
+	background-color: #a6d275;
+	font-family: 'Figtree', sans-serif;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #47385f;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	border: 0.2rem solid #47385f;
+	box-shadow: 3.1px 4.2px #426d35;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/* 
+white: #f8f8f8
+glassJarBorder: #addce2
+light pink: #EACAE0
+dark pink: #DF629E
+purple: #47385F
+light yellow: #F5F6BC
+yellow: #F3EC43
+green: #6CAC30
+light green: #A6D275
+dark green: #3E7034
+green shadow: #B7D6A9
+*/
