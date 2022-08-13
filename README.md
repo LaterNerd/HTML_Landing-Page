@@ -1,4 +1,4 @@
-# Later Nerd:Landing Page
+# Later Nerd: Landing Page
 
 A custom landing page that links up to Mailchimp.
 
