@@ -61,6 +61,11 @@ input {
 	margin: 0.5rem;
 }
 
+.mce-success-response {
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
 button {
 	height: 3rem;
 	width: 100%;
